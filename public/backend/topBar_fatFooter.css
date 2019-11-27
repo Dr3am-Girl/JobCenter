@@ -1,0 +1,243 @@
+/* topBar */
+/* ------------------------------------------------------ */
+.topBar{
+    background-color: #37474f;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    overflow: hidden;
+    line-height: 12px;
+}
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.topBar .container{
+    margin: 0 auto;
+}
+.topBar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.topBar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.topBar ul.brands li a{
+    padding: 12px 10px;
+    font-size: 11px;
+    color: #bdbdbd;
+    margin: 0px 5px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat',sans-serif;
+	white-space: nowrap;
+}
+.topBar ul.icons li{
+    padding: 3px 0px 0px 0px;
+}
+.topBar ul.icons li a{
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.topBar ul.icons li a{
+    padding: 14px 10px;
+    line-height: 17px;
+    opacity: .8;
+}
+.topBar ul li a.facebook:hover{
+    background-color: #3b5999;
+    color: #fff;
+    opacity: 1;
+}
+.topBar ul li a.google-plus:hover{
+    background-color: #DC4E41;
+    color: #fff;
+    opacity: 1;
+}
+.topBar ul li a.youtube:hover{
+    background-color: #e52d27;
+    color: #fff;
+    opacity: 1;
+}
+.topBar ul li a.phone:hover{
+    background-color: #09b83e;
+    color: #fff;
+    opacity: 1;
+}
+.topBar ul li a:first-child{
+    margin-left: 0;
+}
+.topBar ul li a.jobs.active{
+    background-color: #2F64A3;
+    color: #fff;
+    font-weight: bold;
+}
+.topBar ul li a.mybdjobs:hover{
+    background-color: #68aa47;
+    color: #fff;
+}
+.topBar ul li a.training:hover{
+    background-color: #ac016d;
+    color: #fff;
+}
+.topBar ul li a.corporate:hover{
+    background-color: #0b5f8a;
+    color: #fff;
+}
+.topBar-right{
+    padding: 7px 0px 0px 0px;
+    text-align: right;
+}
+.topBar .lang-btn .btn{
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 3px 5px 0px 5px;
+    text-align: center;
+    box-shadow: none;
+    background-color: #37474F;
+    color: #ffffff;
+    text-decoration: none;
+}
+.topBar .lang-btn .btn:hover{
+    background-color: #263238;
+}
+.topBar .lang-btn .btn.active{
+    background-color: #fff;
+    color: #263238;
+}
+.topBar .lang-btn .bn{
+    padding: 3px 6px 2px;
+    background-color: #37474F;
+}
+.topBar .lang-btn .btn + .btn{
+    margin-left: 0px;
+}
+.topBar .lang-btn.btn-group{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-left: 1px;
+    background-color: #ffffff;
+    margin-top: -2px;
+}
+.topBar .icons{
+    margin-right: 20px;
+}
+
+
+/* Footer section*/
+/* ------------------------------------------------------ */
+.fatFooter{
+    padding: 40px 0px;
+    color: #ffffff;
+    background-color: #263238;
+    overflow: hidden;
+    width: 100%;
+}
+.fatFooter .row{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+    overflow: hidden;
+}
+.fatFooter .container{
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.fatFooter .col-md-2{
+    width: 16.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.fatFooter ul{
+    margin: 0px;
+    padding: 0px;
+}
+.fatFooter h4{
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+    font-weight: normal;
+}
+.fatFooter p{
+    color: #92989b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+.fatFooter ul li{
+    list-style: none;
+}
+.fatFooter ul li a{
+    font-size: 14px;
+    color: #92989b;
+    padding-bottom: 6px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+.fatFooter ul li ul li a{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.fatFooter ul li ul li strong{
+    font-size: 12px;
+    color: #92989b;
+    font-weight: normal;
+}
+.fatFooter ul li a:hover{
+    color: #ffffff;
+}
+.fatFooter .btn-f-more{
+    padding: 5px 10px;
+    background-color: #43A047;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+.fatFooter .btn-f-more:hover{
+    background-color: #39873d;
+    color: #ffffff;
+}
+.fatFooter .in-partners{
+    cursor: pointer;
+}
+.fatFooter .in-partners i{
+    cursor: pointer;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.fatFooter .all-partners{
+    display: none;
+}
+.fatFooter ul.all-partners li{
+    list-style: outside url(../images/List_Arrow_icon.png) !important;
+    padding-left: 0px;
+    margin-left: 30px;
+    margin-right: -5px;
+}
+.fatFooter .in-partners:after{
+    /*content: url('../images/plus.png');*/
+    opacity: .8;
+    position: absolute;
+}
+.fatFooter .in-partners.active:after{
+    /*content: url('../images/minus.png');*/
+    opacity: .8;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 991px) {
+    .topBar {
+        display: none !important;
+    }
+}
